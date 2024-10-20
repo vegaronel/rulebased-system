@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rulebased-system/static/css/main.27b00c82.css",
+    "main.js": "/rulebased-system/static/js/main.21582391.js",
+    "index.html": "/rulebased-system/index.html",
+    "main.27b00c82.css.map": "/rulebased-system/static/css/main.27b00c82.css.map",
+    "main.21582391.js.map": "/rulebased-system/static/js/main.21582391.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b00c82.css",
+    "static/js/main.21582391.js"
+  ]
+}
