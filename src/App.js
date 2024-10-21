@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center' }}>
+    <Box sx={{ flexGrow: 1, display: 'flex', flexDirection: 'column', justifyContent:'center', alignItems:'center', backgroundColor:'#faf7f7' }}>
       <Container maxWidth="sm" sx={{ mt: 4, mb: 4 }}>
         <Typography variant="h5" align="center" gutterBottom>
           Computer Troubleshooting System
@@ -83,13 +83,16 @@ function App() {
                 variant="contained"
                 color="primary"
                 fullWidth
-                sx={{ mt: 2 }}
+                sx={{ mt: 2, backgroundColor:'#a76f65' }}
               >
                 Diagnose Issue
               </Button>
             </form>
             {solution && (
-              <Alert severity="info" sx={{ mt: 2 }}>
+             <Alert  severity="info" sx={{ mt: 2, backgroundColor: '#c0caa233', color: '#160e0c', '& .MuiAlert-icon': { color: '#a76f65' // Changing the color of the icon
+               } 
+             }}
+           >
                 {solution}
               </Alert>
             )}
